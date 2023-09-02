@@ -14,5 +14,6 @@ public class Tc_04_Test {
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.makemytrip.com");
+		System.out.println("done");
 	}
 }
